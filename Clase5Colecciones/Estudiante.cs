@@ -11,6 +11,10 @@ namespace Clase5Colecciones
         public string Nombre { get; set; }
         public int Edad {  get; set; }
 
+        public Estudiante(string nombre, int edad) { 
+            Nombre = nombre;
+            Edad = edad;    
+        }
         public void MostrarInformacion()
         {
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
